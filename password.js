@@ -3,15 +3,13 @@ document.getElementById("passwordID").innerHTML = password;
 
 function buttonClicked() {
     "use strict";
-    
+
     var input = document.getElementById("input").value;
-    
+
     if (input == password) {
             window.alert("Correctamudo");
         }
     else {
             window.alert("wrong");
         }
-        
-
 }
